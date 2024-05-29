@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+         .container{
+            width: 100%;
+            height: 100vh;
+            /* background-color: gray; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(./img/product-word-cloud.jpg);
+         }
+         h1{
+            font-size: 40px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color:white;
+         }
+         .bill{
+            width:1100px ;
+            height: 670px;
+            background-color:black;
+            border-radius: 350px;
+         }
+         .bill-contant{
+            text-align: center;
+         }
+         span{
+            /* display: inline-block; */
+         }
+         p{
+               margin-top: 30px;
+               color:skyblue;
+               font-size: 40px;
+         }
+         .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         span,h5,h6{
+            margin-top: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 40px;
+            color:white;
+         }
+         .total,.discount,.after{
+            font-size: 50px;
+            margin-top: 30px;
+            color:darkgray;
+         }
+    </style>
+</head>
+
+<body>
+
+    <div class="container ">
+        <div class="bill" >
+            <div class="bill-contant">
+               <h1 id="titel"></h1>
+               <div class="main-product">
+              <div class="main">
+               <p class="product-1"></p><span ></span>
+              </div>
+               <div class="main " >
+                  <p class="product-2"><h6></h6></p>
+               </div>
+                <div class="main">
+                  <p class="product-3" ></p><h5></h5>
+                </div>
+                <div class="total">
+                </div>
+                <div class="discount">
+                </div>
+                <div class="after">
+               </div>
+               </div>
+            </div>
+        </div>
+    </div> 
+ <script src="js/product .js"></script>
+
+</body>
+</html>
